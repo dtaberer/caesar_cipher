@@ -26,14 +26,23 @@ CaesarCipher
 Using rotate factor of 1
 
     should return 'BCD' when we call the cipher method with 'ABC'
+
 Using rotate factor of 1
+
     should return 'def' when we call the cipher method with 'cde'
+
 Using rotate factor of 1
+
     should return 'def g!' when we call the cipher method with 'cde f!'
+
 Using rotate factor of 1
+
     should return 'aaa' when we call the cipher method with 'zzz'
+
 Using rotate factor of 1
+
     should return 'Acb' when we call the cipher method with 'Zab'
+
   #decipher
 Using rotate factor of 1
     should return 'ABC' when we call the decipher method with 'BCD'
