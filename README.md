@@ -24,6 +24,7 @@ $ rspec -f d spec/
 CaesarCipher
   #cipher
 Using rotate factor of 1
+
     should return 'BCD' when we call the cipher method with 'ABC'
 Using rotate factor of 1
     should return 'def' when we call the cipher method with 'cde'
